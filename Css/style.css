@@ -1,4 +1,49 @@
-.barra-navegacao{
+.nav-bar{
+
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    height: auto;
+    background-color: #212a3e;
+}
+
+.logo-nav{
+    height: auto;
+    float: left;
+    float: left;
+    margin-left: 2%;
+
+    border-radius: 20px;
+}
+
+.logo-site{
+    height: 100px;
+}
+
+.link-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    align-items: center;
+    height: auto;
+    text-decoration: none;
+    color:white;
+
+}
+
+.links{
+    display: flex;
+    padding: 0px 50%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.base-conteudo{
+    margin-top: 10px;
+    height: 1200px;
+    background-color: #394867;
 }
