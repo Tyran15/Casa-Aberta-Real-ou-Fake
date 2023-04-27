@@ -9,44 +9,50 @@
 }
 
 .logo-nav{
+    display: flex;
     height: auto;
-    margin-left: 2%;
-
+    margin-left: 10%;
     border-radius: 20px;
 }
 
 .logo-site{
-    height: 100px;
-    
+    height: 100px;  
 }
 
 .link-nav{
     display: flex;
-    justify-content: space-around;
-    padding: 2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 0px 9%;
     align-items: center;
-    height: auto;
+    width: auto;
+    height: 100px;
     text-decoration: none;
     color:white;
-
+    gap: 10px;
 }
 
 .links{
     display: flex;
-    padding: 0px 10%;
+    padding: 0px 10px;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
     font-size: 25px;
     text-decoration: none;
     color: white;
     flex-wrap: nowrap;
+    height: 20px;
 }
+
 .base-conteudo{
     margin-top: 10px;
     height: auto;
     display: flex;
     justify-content: space-between;
 }
+
 p{
     text-align: justify;
     margin-top: 20px;
@@ -57,6 +63,7 @@ p{
     text-indent: 20px;
     padding: 0px 5%;
 }
+
 .imagem-fake-news{
     width: auto;
     height: auto;
@@ -64,9 +71,11 @@ p{
     margin-left: 3%;
     margin-top: 3%;
 }
+
 .subtitulo{
     text-align: center;
 }
+
 .introducao{
     padding: 0px 5%;
     margin-top: 20px;
@@ -76,6 +85,7 @@ p{
     font-size:30px;
     text-align: center;
 }
+
 li{
     text-align: justify;
     margin-top: 20px;
@@ -86,6 +96,7 @@ li{
     text-indent: 20px;
     padding: 0px 5%;
 }
+
 .texto-imagem{
     padding: 0px 5%;
     margin-top: 20px;
@@ -95,6 +106,7 @@ li{
     font-size:30px;
     text-align: center;
 }
+
 .imagem-covid{
     width: auto;
     height: auto;
@@ -102,6 +114,7 @@ li{
     margin-left: 3%;
     margin-top: 3%;
 }
+
 .imagem-papa{
     width: auto;
     height: auto;
@@ -109,6 +122,11 @@ li{
     margin-left: 3%;
     margin-top: 3%;
 }
+
 .texto-papa{
     padding-left: 5%;
+}
+
+#inicio{
+    text-align: center;
 }
