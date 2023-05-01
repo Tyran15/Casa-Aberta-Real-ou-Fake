@@ -44,6 +44,7 @@
     color: white;
     flex-wrap: nowrap;
     height: 20px;
+    text-decoration: none;
 }
 
 .base-conteudo{
