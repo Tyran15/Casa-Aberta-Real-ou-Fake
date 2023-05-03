@@ -26,22 +26,23 @@ body{
 }
 
 .link-nav{
-    margin-right: 10px;
+    margin-right: 36%;
 }
 
 .logo-nav{
-    display: flex;
     height: auto;
-    margin-left: 10%;
+    margin-left: 2%;
     border-radius: 20px;
 }
 
 .logo-site{
-    height: 100px;  
+    height: 120px;  
 }
 
 .links {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: aliceblue;
  }
 
@@ -88,16 +89,35 @@ li:hover {
  .nav-bar .link-nav .links a {
     text-decoration: none;
   }
-  
+
+#base-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 0px 400px;
+}
+
+#base-site{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
 
 .base-conteudo{
     margin-top: 10px;
     height: auto;
     justify-content: space-between;
+    display: inline-block;
+}
+
+.base-introducao{
+    display: flex;
+    flex-direction: column;
 }
 
 p{
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -105,23 +125,22 @@ p{
     font-size:30px;
     text-indent: 20px;
     padding: 0px 5%;
-}
-
-#Imagem-fake-news{
-    margin-top: 13%;
+    display: inline-block;
 }
 
 .imagem-fake-news{
+    display: inline-block;
     width: auto;
     height: auto;
-    float: left;
-    margin-left: 3%;
-    margin-top: 3%;
+    margin-left: 1%;
+    margin-top: 9%;
     margin-right: 8px;
+    border-radius: 10px;
 }
 
 .subtitulo{
     text-align: center;
+    margin: 15px 0;
 }
 
 .introducao{
@@ -135,13 +154,12 @@ p{
 }
 
 .texto-imagem{
-    padding: 0px 5%;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: black;
-    font-size:30px;
-    text-align: justify;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 8px;
 }
 
 .imagem-covid{
@@ -166,7 +184,7 @@ p{
 }
 
 #inicio{
-    text-align: center;
+    text-align: justify;
 }
 .imagem-twitter{
     width: auto;
