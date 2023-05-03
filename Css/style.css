@@ -1,9 +1,14 @@
 body{
-    margin: 0;
+    padding-bottom: 3%;
 }
 
 .nav-bar{
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -11,16 +16,17 @@ body{
     align-items: center;
     width: 100%;
     background-color: #212a3e;
-}
-
-hr{
-    height: 50px;
+    position: fixed;
 }
 
 .linha{
     width: 100%;
     height: 1px;
     background: black;
+}
+
+.link-nav{
+    margin-right: 10px;
 }
 
 .logo-nav{
@@ -34,54 +40,55 @@ hr{
     height: 100px;  
 }
 
-.link-nav{
-
-}
-
 .links {
     display: flex;
+    color: aliceblue;
  }
- 
- .links:hover {
- 
- }
+
  
  ul {
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-     flex-direction: row;
- }
- 
- li {
-    padding: 30px;
-    text-decoration: none;
-    list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+li {
+   text-decoration: none;
+   list-style: none;
+   display: flex;
+   text-decoration: none;
+   transition: background-color 1s ease;
+   flex-direction: row;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   margin: 10px 5px;
+   border-radius: 5px;
+   border: 1px solid rgb(0, 195, 255);
+}
+
+li:hover {
+    background-color: rgb(0, 195, 255);
+    list-style: none;
     text-decoration: none;
-    transition: background-color 1s ease;
+}
+
+.links a {
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 8px 20px;
-    border-radius: 5px;
- }
- 
- li:hover {
-     background-color: rgb(0, 195, 255);
-     list-style: none;
-     
- }
- 
- a {
-     display: flex;
-     align-items: center;
-     font-size: 18px;
-     padding: 1px 28px 1px 10px;
- }
+    font-size: 18px;
+    padding: 5px 28px 5px 30px;
+    margin: 0 15px;
+    color: rgb(0, 195, 255);
+    text-decoration: none;
+}
+
+ .nav-bar .link-nav .links a {
+    text-decoration: none;
+  }
+  
 
 .base-conteudo{
     margin-top: 10px;
@@ -125,17 +132,6 @@ p{
     color: black;
     font-size:30px;
     text-align: justify;
-}
-
-li{
-    text-align: justify;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: black;
-    font-size:30px;
-    text-indent: 20px;
-    padding: 0px 5%;
 }
 
 .texto-imagem{
