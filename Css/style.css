@@ -3,7 +3,6 @@ body{
 }
 
 .nav-bar{
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -16,7 +15,6 @@ body{
     align-items: center;
     width: 100%;
     background-color: #212a3e;
-    position: fixed;
 }
 
 .linha{
@@ -98,6 +96,13 @@ li:hover {
     padding: 0px 400px;
 }
 
+#borda-texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(155, 164, 181);
+    padding: 10px;
+}
+
 #base-site{
     display: flex;
     flex-direction: column;
@@ -109,6 +114,15 @@ li:hover {
     height: auto;
     justify-content: space-between;
     display: inline-block;
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-1{
+    justify-content: center;
 }
 
 .base-introducao{
